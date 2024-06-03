@@ -1,0 +1,77 @@
+
+※重要：
+    蒐藏庫未完成
+    LOGO 製作
+
+===ToDo======================================
+[V] 串接API
+    [V] 完成主要商品顯示區塊
+    [V] 每個單一商品可以顯示
+    [V] 找到對應的名稱與類型
+    [V] 使用哪一個BonusItem的邏輯判斷
+    [V] 增加For BonusProductItem Dto
+
+[V] 商品頁面
+    [V] 側面欄位完成
+    [V]由sideber的search將輸入文字傳到主要area
+        [V]大小寫防呆
+
+    [V] 關鍵字篩選
+        [V] Bonus.vue可以接到輸入文字
+
+    (廢棄)
+    [] 類別篩選
+        [] 動態生成
+        [] 可以透過type篩選
+        [] 製作一個checkbox的sass樣式
+        [] mixin
+
+    [V] 進階搜尋手風琴
+        [V] 修改Nuxt and bootstrap 樣式
+
+    [V] 模態框
+    [V] 可以正常操作模態框
+    [V] 資料連接到模態框
+    [V] 顯示餘額
+    [V] 判斷是否是已有商品
+    [V] 送至收藏庫 (set cookei)
+    [V] 顯示
+
+    [X] BonusProduct輪播
+    
+
+[V] 商品收藏庫
+    [V] 讀取
+    [V] 關鍵字搜尋?
+    [V] 將資料丟到父物件
+
+    (廢棄)
+    [] 類別篩選
+        [] 動態生成
+        [] 可以透過type篩選
+        [] 製作一個checkbox的sass樣式
+        [] mixin
+    
+[V] 使用者更換紅利收藏庫的道具
+    [V] 想出更換頭像的方法並實作
+    [V] 使用哪一個BonusItem的邏輯判斷JS/修改Nuxt
+
+[V] 找出使用cookie無法渲染的原因
+    關鍵字：ClientOnly
+    詳見：https://ithelp.ithome.com.tw/articles/10327918
+
+[V] 命名约定
+    [V] apiToBonus
+    [V] bonusToArea
+    [V] areaToItem
+
+===Tips======================================
+在程式上半插入
+<style lang="scss">
+  @import "@/assets/css/my-style.css";
+</style>
+
+也可使用已製作好的程式碼片段my-style
+
+
+
